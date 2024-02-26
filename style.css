@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 5px 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.list>li {
+    padding: 15px 0;
+
+}
+
+.item {
+    padding: 10px 15px;
+    margin: 0 20px;
+    width: auto;
+    order: 3;
+    font-weight: 100;
+}
+
+.item>a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 292px;
+    margin-left: -404px;
+    order: 1;
+    font-weight: 700;
+}
+
+.item>a:hover {
+    background-color: red;
+}
